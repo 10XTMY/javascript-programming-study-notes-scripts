@@ -1,0 +1,64 @@
+.error {
+    padding: 10px;
+    color: crimson;
+    border: 1px dotted crimson;
+}
+.success {
+    padding: 10px;
+    color: limegreen;
+    border: 1px dotted limegreen;
+}
+.article-element {
+    background-color: bisque;
+    text-shadow: 1px 1px 2px black;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+.button {
+    display: block;
+    margin: 20px auto;
+    background: crimson;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+}
+.popup-wrapper {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    display: none;
+}
+.popup {
+    font-family: "Arial Black";
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+}
+.popup a{
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+}
+.popup-content {
+
+}
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
